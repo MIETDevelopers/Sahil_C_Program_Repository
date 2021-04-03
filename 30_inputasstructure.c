@@ -1,5 +1,5 @@
 #include <stdio.h>  
-typedef struct student  
+ struct student  
 {  
 char name[20];  
 int age;  
