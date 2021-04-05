@@ -11,7 +11,7 @@ int main()
 	char %c
 	double %lf 
 	long int %ld
-	//scanf("%f %f %f %f",&radiusofCircle,&sideofSquare,&lengthofRectangle,&breadthofRectangle);
+	scanf("%f %f %f %f",&radiusofCircle,&sideofSquare,&lengthofRectangle,&breadthofRectangle);
 	float areaOfCircle=((22*raduisOfCircle*raduisOfCircle)/7);
 	float perimeterOfCircle=(2*22*raduisOfCircle)/7;
 	printf("Area of Circle: %f",raduisOfCircle);
