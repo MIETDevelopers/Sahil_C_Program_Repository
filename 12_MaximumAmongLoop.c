@@ -1,6 +1,9 @@
-#include<stdio.h>
-int main(){
-	int n,num,i;
+// A Simple C program to perform Maximum of n numbers
+// Author:Sahil Manni
+#include<stdio.h> // pre process directive to include standard input output header file
+int main() // Start of the main function body
+{
+	int n,num,i; // 
 	int bigger;
 	printf("Enter the values of n: ");
 	scanf("%d",&n);
@@ -12,6 +15,6 @@ int main(){
 	if(bigger<num)
 	bigger=num;
  }
- printf("Largest number is: %d",bigger);
- return 0;
-}
+ printf("Largest number is: %d",bigger); // print the largest number form the series
+ return 0; // Return number
+} // End of the main function body
